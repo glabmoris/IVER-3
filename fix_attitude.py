@@ -4,7 +4,7 @@ import re
 from exif import Image
 
 if len(sys.argv) != 2:
-	sys.stderr.write("Usage: exif-fu.py\n")
+	sys.stderr.write("Usage: fix-attitude.py picture-directory\n")
 	sys.exit(1)
 
 workdir = sys.argv[1]
